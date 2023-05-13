@@ -2,7 +2,7 @@
 
 Este projeto é uma API para o gerenciamento de candles para uma aplicação de análise de ações.
 
-API de geração de candles: https://github.com/graxz/bitcoin-generate-candles
+![image](https://github.com/graxz/bitcoin-candle-api/assets/60474834/7a8a9346-d259-44d1-b737-ecdcbe8e0291)
 
 ## Tecnologias utilizadas
 
@@ -17,6 +17,7 @@ API de geração de candles: https://github.com/graxz/bitcoin-generate-candles
 #### Pré-requisitos
 
 O outro projeto deve estar rodando na porta 8080.
+API de geração de candles: https://github.com/graxz/bitcoin-generate-candles
 
 ```bash
 # Clone este repositório
