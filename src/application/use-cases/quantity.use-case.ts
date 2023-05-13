@@ -5,8 +5,9 @@ export default class QuantityUseCase {
         private candleRepo: CandleRepository
     ) { }
 
-    execute(quantity: number) {
-        const lastCandles = this.candleRepo.findLastCandles(quantity);
+    async execute(quantity: number) {
+        const lastCandles = await this.candleRepo.findLastCandles(quantity);
+
         return lastCandles;
     }
 }
